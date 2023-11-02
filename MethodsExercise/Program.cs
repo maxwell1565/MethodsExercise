@@ -29,6 +29,14 @@ namespace MethodsExercise
 
             Console.WriteLine("Cool! That's mine too!");
 
+
+            Console.WriteLine("Here is your user profile:");
+            
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Favorite Color: {favoriteColor}");
+            Console.WriteLine($"Favorite Animal: {favoriteAnimal}");
+            Console.WriteLine($"Favorite Band: {favoriteBand}");
+
         }
     }
 }
